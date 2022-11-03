@@ -11,12 +11,84 @@
   <!--font awesome-->
   <script src="https://kit.fontawesome.com/60d4909406.js" crossorigin="anonymous"></script>
 
-  <title>Olá, mundo!</title>
+  <!--estilo css-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Finans- finanças pessoais</title>
 </head>
 
 <body>
-  <h1>Olá, mundo!</h1>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+      <div class="container">
+        <!--logo-->
+        <a href="" class="navbar-brand">
+          <img src="img/logo.png" alt="logo" width="142px">
+        </a>
+        <!--toggle da barra-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <span class="navbar-toggler-icon">
+          </span>
+        </button>
 
+        <div class="collpase navbar-collapse" id="nav-principal">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="" class="nav-link"> Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"> Recursos</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"> Benefícios</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"> Preços</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="btn btn-outline-light ml-4"> Entrar</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Inicio sessão-->
+  <section id="home">
+    <div class="container">
+      <div class="row">
+        <!--textos da sessão-->
+        <div class="col-md-6 d-flex">
+          <div class="align-self-center">
+            <h1 class="display-4">Suas Contas, descomplicadas</h1>
+            <p>Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.</p>
+            <form class="mt-4 mb-4">
+              <div class="input-group input-group-lg">
+                <input type="text" placeholder="Seu e-mail" class="form-control">
+                <div class="input-group-append">
+                  <button class="btn btn-primary">Cadastre-se</button>
+                </div>
+              </div>
+            </form>
+            <p>Disponível para
+              <a href="" class="btn btn-outline-light">
+                <i class="fab fa-android fa-lg"></i>
+              </a>
+              <a href="" class="btn btn-outline-light">
+                <i class="fab fa-apple fa-lg"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+        <!--fim textos-->
+        <div class="col-md-6 d-none d-md-block">
+          <img src="img/capa-mulher.png" alt="capa-mulher">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--fim sessão-->
   <!-- JavaScript (Opcional) -->
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
